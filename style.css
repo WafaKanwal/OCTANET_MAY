@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.home-page{
+    background-image: url(Images-7/Home\ page-3.jpeg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-container{
+    color: black;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 180px;
+    padding-left: 16px;
+}
+
+.learn-more{
+  background-color:#F54768; 
+  color: white;
+  border: 300px;
+  border-top: 100px;
+  padding: 10px 20px;
+  border-radius: 5px;  
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out; /* For smooth glow transition */
+}
+
+.learn-more:hover {
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.5); /* Pink glow with opacity */
+  }
